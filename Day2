@@ -1,0 +1,17 @@
+horizontal(increasing the servers) and vertical scaling(vertically increasing the server resources like ram cpu..)
+
+Elastic Load Balancing:
+automatically distributes traffic across multiple targets
+provides high availability
+incorporates security features
+performs health checks
+
+elb types:
+application load balancer(http, https)
+network load balancer(tcp and udp)
+gateway load balancer(ip)
+
+Auto scaling:
+Helps you control Ec2 instances available to handle the load for your application
+Launches or terminates your aws resources based on specific conditions
+Registers new instances with load balancers, when specified
