@@ -1,0 +1,51 @@
+storage options in aws
+----------------------
+1.Object storage:s3(simple storage service)
+	-s3 is durable and scalable
+	-pay as you go
+	-to upload 
+
+
+ 1. Auto Scaling (EC2 Auto Scaling)
+Purpose: Automatically increases or decreases EC2 instances based on demand.
+
+Steps:
+
+Launch EC2 instance → Create AMI.
+
+Create Launch Template (with AMI and instance type).
+
+Go to Auto Scaling Groups → Create Group.
+
+Set min, max, desired number of instances.
+
+Add scaling policies (e.g., CPU > 70% → add instance).
+
+Attach to Load Balancer (optional).
+
+Use Case: Saves cost & handles traffic efficiently.
+
+ 2. MFA (Multi-Factor Authentication)
+Purpose: Adds an extra layer of security (password + OTP).
+
+Steps:
+
+Go to IAM → Users.
+
+Select a user → Security credentials tab.
+
+Click "Assign MFA device".
+
+Choose Virtual MFA device (use apps like Google Authenticator).
+
+Scan QR code → Enter 2 consecutive OTPs → Done.
+
+Use Case: Prevents unauthorized account access.
+s3 bucket-private and public
+
+cli-command line interface
+using terraform creating bucket and ec2 instance
+
+aws s3api create-bucket --bucket ananya6543 --region ap-south-1 --create-bucket-configuration LocationConstraint=ap-south-1
+
+aws s3api delete-bucket --bucket ananya6543 --region ap-south-1
