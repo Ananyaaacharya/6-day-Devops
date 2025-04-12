@@ -1,0 +1,38 @@
+Login to AWS Console → Go to EC2.
+
+Click "Launch Instance".
+
+Name your instance.
+
+Choose Ubuntu.
+
+Choose t2.micro (Free tier).
+
+Create or select Key Pair.
+
+Allow port 22 (SSH) and port 8080 (for Jenkins) in Security Group.
+
+Click "Launch Instance".
+
+After launch, select instance → Click Connect.
+
+
+
+sudo yum update -y
+sudo amazon-linux-extras install java-openjdk11 -y
+sudo yum install jenkins -y
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+
+Access Jenkins
+In browser: http://your-ec2-public-ip:8080
+
+Get admin password:
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+Paste the password to unlock Jenkins.
+
+Install Suggested Plugins.
+
+Create admin user 
