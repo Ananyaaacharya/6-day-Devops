@@ -1,0 +1,97 @@
+os-interface between user and hardware
+
+cloud computing - on demand delivery of IT resources over the internet. You can access technical resources such as storage, databases, compute, networking, security with pay as you go
+
+cloud providers- aws, microsoft azure, gcp-google cloud platform
+
+SDLC- software development life cycle. Its a structured step by step process that development teams use to create high quality, cost effective and secure software
+
+server components: os(Linux/windows/mac), Ram(6/8/12/16...), Rom(HDD/SDD), networking
+
+all commands -small letter
+ls- to list files and directories(folders)
+
+touch- command to create empty files
+ex: touch > Ananya
+ex: touch Ananya( to display the content)
+
+rm-to remove files
+ex: rm Ananya
+
+mkdir: command to create empty directory
+ex:mkdir sinchana
+
+cd:change directory
+ex: cd directoryname
+cd ..(exit from directory) or cd ../..(exits from 2 directories)
+
+rmdir:to delete empty directory
+ex: rm directoryname
+
+rm -r:to delete directory with files
+
+ls -l: list the file and directories with permissions
+
+pwd: print working directory/present
+
+history:
+
+devops- set of practices, principles and cultural philosophies that aim to bridge the gap between software development and operations. 
+goal- to shorten the sdlc, improve collaboration between development and operations team and deliver high quality software faster and more efficiently 
+key elements-1)Automation 2)CI-continuous integration 3)CD-continuous delivery or deployment 5)Collaboration and communication 6)monitoring
+
+waterfall model :
+has distinct goals for each phase of development
+requirements->analysis->design->coding->testing->operations
+limitation
+once application is in the testing stage it is very difficult to go back and change something that is not well-thought out in the concept stage
+
+agile methodology:
+DevOps is a culture fostering collaboration amongst all participants involved in the development and maintenance of the software. Agile can be described as a development methodology designed to maintain productivity and drive releases with all common reality of changing needs.
+limitations:
+development team: code works fine in my laptop
+operations team: there is some problem with the code it doesn't work in production
+
+its a software development and operations approach that enables faster development of new products and easier maintenance of existing deployments
+
+benefits: speed, rapid delivery, reliability, improved collaboration, scale security
+
+continuous		plan
+development		code
+
+continuous		build
+		test
+
+
+server: it is powerful computer or system that provides services or data to other computers known as clients over the internet.
+it is designed to manage, store and process data and they play critical role in handling request delivering responses within a network.
+Types of servers:
+1.Web server -delivers web pages to users browsers ex:nginx
+2.File server-stores and manages files that clients can access and share over a network
+3.Database server-manage database and provide access to clients for reading,writing and updating data. ex:mysql, mongodb
+4.Mail server-handles the sending, receiving and storage of email. Ex: Microsoft exchange
+
+clients--->internet---->server
+
+Server components: os, ram, rom, cpu, storage, nic
+
+Ec2 configuration:
+1.name of the server
+2.Application and os images(Amazon machine image)
+	-os selection
+3.Instance type: choose number of CPU's and RAM
+4.Keypair:used to connect securely to instance
+5.Networking:
+	-firewalls
+	-VPC: virtual private cloud
+	-subnets
+	-route tables
+	-NAT
+	-Internet gateway
+	-Elastic IPS
+6.Configure storage
+	-EBS(elastic block store)
+	-EBS nothing but similar to hard disk
+	-Persistent block level storage
+	-can create new volumes and attach to running instance
+7.Launch instance: Web server/Windows server
