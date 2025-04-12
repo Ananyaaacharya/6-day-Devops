@@ -1,0 +1,34 @@
+Docker is a tool to package apps with all dependencies into containers.
+
+A container is a lightweight, isolated environment (like a mini virtual machine).
+
+Helps in easy deployment and consistency across environments.
+
+Docker Commands:
+1.  yum update
+2.  yum install docker -y
+3.  docker --version
+4.  service docker start
+5.  docker info
+6.  docker pull ubuntu
+7.  docker images
+8.  docker ps -a
+9.  docker run redis
+10. docker images
+11. docker run alpine
+12. docker ps -a
+13. docker ps
+14. docker run -it ubuntu
+15. docker ps
+16. docker images
+17. docker ps -a
+18. docker start jovial_show
+19. docker start jovial_showe5e12eee9e37
+20. docker ps
+21. docker start nostalgic_jang~
+22. docker start awesome_lumiere
+23. docker attach awesome_lumiere
+24. docker ps
+25. docker attach awesome_lumiere
+
+
