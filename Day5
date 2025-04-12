@@ -1,0 +1,23 @@
+aws eks update-kubeconfig --name peculiar-disco-seal --region us-east-1
+
+
+Linux file permissions:
+1)user - owner of the file
+2)group- collection of user with same file permission
+3)others -not a owner not in group
+
+
+values:
+read-w:4
+write-w:2
+execut-x:1
+
+file type:
+directory starts with d
+regular file starts with -
+
+
+aws eks update-kubeconfig --name ananya-cluster --region us-east-2
+
+Jenkins is open source automated server used for implementing continuous integration(CI) and continuous delivery (CD) pipeline, automating task like building, testing, and deploying software, leading to faster delivery software lifecycle
+Jenkins is developed using java
